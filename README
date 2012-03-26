@@ -1,0 +1,8 @@
+mkdir CodeMetrics
+cd CodeMetrics
+git init
+touch README
+git add README
+git commit -m 'first commit'
+git remote add origin git@github.com:fengzhang2011/CodeMetrics.git
+git push -u origin master
